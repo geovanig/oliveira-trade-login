@@ -1,0 +1,88 @@
+body{
+    background-image: url("../imgs/business-geadf22630_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.card{
+    background-color: rgba(255, 0, 255, 0.4);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-radius: 1rem;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 0.4rem 0.4rem;
+    display: inline-block;
+    border: 0;
+    border-radius: 0.4rem;
+    background-color: rgba(255, 213, 123, 0.1);
+    border-bottom: 1px solid;
+}
+
+label{
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonL{
+    margin: 0.4rem;
+    background-color: rgb(50, 171, 180);
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    color: rgba(240, 248, 255, 0.925);
+}
+
+.buttonC{
+    margin: 0.4rem;
+    background-color: rgb(64, 43, 182);
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    color: rgba(240, 248, 255, 0.911);
+}
+
+hr{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.buttonL:hover{
+    margin: 0.4rem;
+    background-color: rgba(0, 238, 255, 0.774);
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
+
+.buttonC:hover{
+    margin: 0.4rem;
+    background-color: rgba(38, 0, 255, 0.753);
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
